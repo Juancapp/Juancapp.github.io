@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141414;
+}
+
+.logo {
+  width: 6.2rem;
+  margin-top: 1.2rem;
+  margin-left: 3.55rem;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 11rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.container .titulo h1 {
+  color: white;
+  font-size: 4rem;
+}
+.container .paleta {
+  margin-top: 2.2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.container .paleta .perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .paleta .perfil img, .container .paleta .perfil:hover img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 4px solid transparent;
+}
+.container .paleta .perfil span, .container .paleta .perfil:hover span {
+  color: #808080;
+  font-size: 1.5rem;
+}
+.container .paleta .perfil .icon, .container .paleta .perfil:hover .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 200px;
+  border-radius: 0.5rem;
+}
+.container .paleta .perfil .icon i, .container .paleta .perfil:hover .icon i {
+  font-size: 7rem;
+}
+.container .paleta .perfil:hover {
+  cursor: pointer;
+}
+.container .paleta .perfil:hover img {
+  border: 4px solid white;
+}
+.container .paleta .perfil:hover .icon {
+  background-color: #E5E5E5;
+}
+.container .paleta .perfil:hover span {
+  color: #E5E5E5;
+}
+.container .boton, .container .boton:hover {
+  margin-top: 6rem;
+  border: 1px solid #808080;
+  background-color: #141414;
+  color: #808080;
+  width: 17.3rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+.container .boton:hover, .container .boton:hover {
+  border: 1px solid white;
+  color: #E5E5E5;
+}
+
+/*# sourceMappingURL=styles.css.map */
